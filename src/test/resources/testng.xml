@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="dice.com test" verbose="1" > <!--parallel="tests" thread-count="2"-->
+    <test name="CH" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.dice.LoginTest">
+                <methods>
+                    <exclude name="testCanLoginAsValidUser" />
+                    <exclude name="testCannotLoginAsInvalidUser" />
+                </methods>
+            </class>
+            <class name="com.dice.EditProfileTest">
+                <methods>
+                    <include name="editUserProfileData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!--<test name="FF" >-->
+        <!--<parameter name="browser" value="firefox"/>-->
+        <!--<classes>-->
+            <!--<class name="com.dice.RegisterTest">-->
+                <!--<methods>-->
+                    <!--<exclude name="testCanRegisterAsValidData" />-->
+                    <!--<exclude name="testCannotRegisterWithInvalidData" />-->
+                <!--</methods>-->
+            <!--</class>-->
+            <!--<class name="com.dice.LoginTest>-->
+                <!--<methods>-->
+                    <!--<exclude name="testCanLoginAsValidUser" />-->
+                    <!--<exclude name="testCannotLoginAsInvalidUser" />-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+    <!--</test>-->
+</suite>

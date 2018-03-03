@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ebay.RegisterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-02-28T14:58:52" hostname="iMac.lan" time="9.898">
+  <properties/>
+  <testcase name="testCanRegisterAsValidData" classname="com.ebay.RegisterTest" time="9.898"/>
+  <system-out><![CDATA[testCanRegisterAsValidData
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef) on port 44925
+Only local connections are allowed.
+фев 28, 2018 4:58:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+фев 28, 2018 4:58:54 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=64.0.3282.186 Platform=MAC
+фев 28, 2018 4:58:54 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 4.10
+фев 28, 2018 4:58:54 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.8.1 build time: 2017-12-01T18:33:54.468Z
+фев 28, 2018 4:58:54 PM com.codeborne.selenide.impl.WebDriverThreadLocalContainer createDriver
+INFO: Create webdriver in current thread 10: ChromeDriver -> ChromeDriver: chrome on MAC (f2fd7cac53913159c24012032a19667f)
+]]></system-err>
+</testsuite>

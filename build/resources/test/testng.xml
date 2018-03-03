@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirstSuite" verbose="1" >
+    <test name="Registration" >
+        <classes>
+            <class name="com.ebay.RegisterTest">
+                <methods>
+                    <include name="testCanRegisterAsValidData" />
+                    <exclude name="testCannotRegisterWithInvalidData" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Login">
+        <classes>
+            <class name="com.ebay.SignInTest">
+                <methods>
+                    <include name="testCanLoginAsValidUser" />
+                    <exclude name="testCannotLoginAsInvalidUser" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

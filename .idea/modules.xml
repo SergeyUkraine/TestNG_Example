@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testng.iml" filepath="$PROJECT_DIR$/.idea/modules/testng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testng_main.iml" filepath="$PROJECT_DIR$/.idea/modules/testng_main.iml" group="testng" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/testng_test.iml" filepath="$PROJECT_DIR$/.idea/modules/testng_test.iml" group="testng" />
+    </modules>
+  </component>
+</project>
